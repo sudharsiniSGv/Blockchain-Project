@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blockchain Node</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Blockchain Network Node</h1>
+
+    <form action="/add_transaction" method="post">
+      <h3>Add Transaction</h3>
+      <input type="text" name="sender" placeholder="Sender" required><br>
+      <input type="text" name="receiver" placeholder="Receiver" required><br>
+      <input type="number" name="amount" placeholder="Amount" required><br>
+      <button type="submit">Send Transaction</button>
+    </form>
+
+    <form action="/mine_block">
+      <button type="submit">Mine Block</button>
+    </form>
+
+    <form action="/replace_chain">
+      <button type="submit">Sync With Network</button>
+    </form>
+
+    <a href="/get_chain" target="_blank">📄 View Full Blockchain</a>
+  </div>
+</body>
+</html>

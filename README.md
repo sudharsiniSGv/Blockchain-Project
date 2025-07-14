@@ -28,15 +28,8 @@ This project simulates a simple **Peer-to-Peer (P2P) Blockchain Network** using 
 - Stylish and clean web interface for interaction — no need for Postman or external tools.
 
 # Launching the Nodes
-1.Open 4 terminals and run each command in a separate terminal:
+<pre> 1. Open 4 terminals and run each command in a separate terminal: ```bash python node1.py python node2.py python node3.py python node4.py ``` 2. Access the Web UI in your browser: - http://127.0.0.1:5001 - http://127.0.0.1:5002 - http://127.0.0.1:5003 - http://127.0.0.1:5004 </pre>
 
-<pre> ```bash python node1.py python node2.py python node3.py python node4.py ``` </pre>
-
-2. Access the Web UI in your browser:
-
-http://127.0.0.1:5001
-http://127.0.0.1:5002
-http://127.0.0.1:5003
 http://127.0.0.1:5004
 
 

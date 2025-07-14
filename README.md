@@ -30,10 +30,7 @@ This project simulates a simple **Peer-to-Peer (P2P) Blockchain Network** using 
 # Launching the Nodes
 1.Open 4 terminals and run each command in a separate terminal:
 
-python node1.py
-python node2.py
-python node3.py
-python node4.py
+<pre> ```bash python node1.py python node2.py python node3.py python node4.py ``` </pre>
 
 2. Access the Web UI in your browser:
 
